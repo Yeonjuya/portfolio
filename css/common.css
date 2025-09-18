@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+#wrap {
+    width: 100vw;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#header.active {
+    transform: translateY(-101%);
+}
+
+.inner {
+    padding: 0px 50px;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_all {
+    display: flex;
+    position: relative;
+}
+
+.gnb .gnb_left {
+    display: flex;
+    gap: 20px;
+}
+
+.gnb a,
+.contact_item span {
+    display: inline-block;
+    font-size: 1.8rem;
+    background: var(--color-black);
+    color: #fff;
+    padding: 5px 18px;
+    border-radius: 100vmax;
+    cursor: pointer;
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    order: 1;
+}
+
+.icon_wrapper {
+    position: absolute;
+    right: 0;
+    order: 2;
+    transform: rotate(180deg) scale(0.9, 1.1);
+}
+
+.icon_wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

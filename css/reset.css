@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ol,
+li,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+/* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
+a:visited {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+address,
+em {
+    font-style: normal;
+}
+
+caption,
+legend {
+    display: none;
+}
+
+select,
+input,
+fieldset {
+    border: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #E5E5E5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    width: 10px;
+}

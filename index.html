@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeong Yeonju Portfolio</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jeong Yeonju Portfolio">
+    <meta property="og:description" content="웹 디자인·퍼블리싱 포트폴리오">
+    <meta property="og:url" content="https://yeonjuya.github.io/portfolio/">
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel=" stylesheet" href="css/font.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- js 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="email-alert">주소가 클립보드에 복사됐어요 🙌🏻</div>
+
+
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <div class="gnb_wrapper">
+                    <ul class="gnb">
+
+                        <div class="icon_all">
+                            <li class="contact_item">
+                                <span class="email-copy" data-email="hello.yj0jy@gmail.com">CONTACT</span>
+                            </li>
+                            <div class="icon_wrapper">
+                                <li><img src="images/header_icon.svg" alt="icon"></li>
+                            </div>
+                        </div>
+
+                        <div class="gnb_left">
+                            <li><a href="#work">WORK</a></li>
+                            <li><a href="#hero">ABOUT</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div><!-- inner -->
+        </header>
+
+
+        <div id="container">
+            <section id="hero">
+                <div class="inner">
+                    <div class="intro_image">
+                        <div class="typing-container">
+                            <span id="text"></span><span id="cursor"></span>
+                        </div>
+                        <img src="images/hero_postbox.png" alt="소개말">
+                    </div><!-- intro_image -->
+
+                    <div class="about">
+                        <div class="about_bg"><img src="images/about.jpg" alt=""></div>
+                        <h3 class="about_tit">About</h3>
+                        <span class="about_line"></span>
+                        <div class="about_close">
+                            <img src="images/about_close.svg" alt="about 닫기">
+                        </div>
+
+                        <div class="about_wrap">
+                            <p>안녕하세요 &#58;-&#41;<br>
+                                클릭 하나에도 설렘을 담아,<br> 사용자에게 즐거운 경험을 선물하는 디자이너가 되고 싶은 정연주입니다.</p>
+
+                            <p>HTML · CSS · JavaScript · Figma로 웹 사이트의 디자인과 인터랙션을<br> 구상하고, 모바일부터 데스크톱까지 최적화된 반응형으로
+                                모든 사용자들이 웹사이트를 손쉽게 이용할 수 있도록 합니다.</p>
+
+                            <p>저는 디자인과 개발뿐만 아니라 기획과 마케팅에도 관심이 많아,
+                                통합적인 시각으로 문제를 정의하고 해결합니다.
+                                새로운 것을 배우는 것 또한 늘 환영합니다! 🥳 </p>
+
+                            <p class="cta-note">이력·자소서를 아래 버튼에서 확인하실 수 있습니다.</p>
+
+                            <div class="view_btn" onclick="openModal('pdf5')">
+                                VIEW PDF
+                            </div>
+
+                        </div>
+                    </div><!-- about -->
+
+                    <div class="intro_footer">
+                        <ul class="ht_locate">
+                            <li>BRANDING / GRAPHIC DESIGN / WEB DESIGN</li>
+                            <li>2020 — 25 <span class="dot">•</span> Selected Works</li>
+                        </ul><!-- ht_locate -->
+                    </div><!-- intro_footer -->
+                </div><!-- inner -->
+
+                <div class="text-wrapper">
+                    <div class="ht_text">
+                        READY TO CREATE
+                    </div>
+                </div>
+            </section><!-- hero -->
+
+            <section id="work">
+                <div class="inner">
+                    <h2>WORK<span class="star">*</span></h2>
+                    <p class="info">WEB DESIGN · RESPONSIVE UI/UX · PUBLISHING</p>
+                    <p class="dec">어떻게 하면 사용자가 더 편할까, 더 즐거울까를 고민하며 만들었습니다.<br> 브랜드의 메시지를 시각적으로 해석하고, 사용자의 시선에서 바라보며 완성한
+                        웹
+                        작업물입니다.</p>
+
+                    <div class="work-web">
+                        <!-- 01 -->
+                        <a href="./projects/villagequest/index.html" class="card">
+                            <div class="thumb">
+                                <img src="images/thumbnail_Village Quest.jpg" alt="Village Quest">
+                            </div><!-- thumb -->
+                            <div class="caption">
+                                <p class="idx">02</p>
+                                <p class="tit">VILLAGE QUEST</p>
+                            </div><!-- caption -->
+                        </a>
+
+                        <!-- 02 -->
+                        <a href="./projects/diptyque/index.html" class="card">
+                            <div class="thumb">
+                                <img src="images/thumbnail_diptyque.jpg" alt="Diptyque">
+                            </div><!-- thumb -->
+                            <div class="caption">
+                                <p class="idx">01</p>
+                                <p class="tit">DIPTYQUE · WEB SITE RENEWAL</p>
+                            </div><!-- caption -->
+                        </a>
+
+                        <!-- 03 -->
+                        <a href="projects/snc/index.html" class="card">
+                            <div class="thumb">
+                                <img src="images/thumbnail_snc.jpg" alt="SNC">
+                            </div><!-- thumb -->
+                            <div class="caption">
+                                <p class="idx">03</p>
+                                <p class="tit">SNC · WEB SITE RENEWAL</p>
+                            </div><!-- caption -->
+                        </a>
+                    </div><!-- work-web-->
+
+                    <div class="add">
+                        <div class="btn">
+                            <div class="mask-wrap">
+                                <h3>GRAPHIC & BRANDING</h3>
+                                <h3>GRAPHIC & BRANDING</h3>
+                            </div><!-- mask-wrap -->
+                        </div><!-- btn -->
+                        <div class="arrow-container">
+                            <img src="images/icon_arrow_right.svg" alt="">
+                            <img src="images/icon_arrow_right.svg" alt="">
+                        </div><!-- arrow-container -->
+                    </div><!-- add -->
+
+                    <div class="add-work">
+
+                        <div class="add-dialog">
+                            <div class="work-intro">
+                                <h3>GRAPHIC & BRANDING WORK</h3>
+                                <p>웹이 제 주력이지만, 광고 기획 · 브랜드 리브랜딩 · 그래픽 작업도 진행한 경험이 있습니다.<br>
+                                    아래 목록에서 작업물들을 확인하실 수 있습니다.</p>
+
+                                <div class="btn_close">
+                                    <img class="btn_close__icon" src="images/icon_close.svg" alt="">
+                                </div><!-- btn_clsoe -->
+                            </div>
+                            <!-- work-intro -->
+
+                            <ul class="add-list">
+                                <!-- item 01 -->
+                                <li class="add-item">
+                                    <div class="add-tit">
+                                        <h4>Capsule Coffee Branding</h4>
+                                    </div>
+
+                                    <div class="add-desc">
+                                        <p>개인 작업으로 진행한 Capsule Coffee Branding은 일상 속 커피의 의미를 시각화한 프로젝트입니다.<br>
+                                            로고와 패키지, 리플렛, 명함 등 브랜드 전반의 디자인을 직접 제작했으며,<br>
+                                            반복되는 일상 속에서 작은 활기를 더해주는 루틴이 되길 바라는 메시지를 담았습니다.</p>
+
+                                        <div class="add-meta">
+                                            (2024. 04.01 - 04. 15)
+                                        </div>
+
+                                        <div class="view_btn" onclick="openModal('pdf1')">
+                                            VIEW PDF
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- item 02 -->
+                                <li class="add-item">
+                                    <div class="add-tit">
+                                        <h4>국립김해박물관 홍보 기획서</h4>
+                                    </div>
+
+                                    <div class="add-desc">
+                                        <p>대학 팀 프로젝트로 진행한 국립김해박물관 홍보 캠페인입니다.<br>방문율을 높이기 위한 기획을 공동으로 진행했으며, 저는 기획서
+                                            디자인을
+                                            100% 담당하여<br>
+                                            메시지와 아이디어가 잘 전달되도록 시각적 구성과 프레젠테이션 완성도를 높였습니다.</p>
+
+                                        <div class="add-meta">
+                                            (2023. 10. 01 - 12. 01)
+                                        </div>
+                                        <div class="view_btn" onclick="openModal('pdf2')">
+                                            VIEW PDF
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- item 03 -->
+                                <li class="add-item">
+                                    <div class="add-tit">
+                                        <h4>NANACON Rebranding</h4>
+                                    </div>
+
+                                    <div class="add-desc">
+                                        <p>대학 팀 프로젝트로 진행한 나나콘 리브랜딩 캠페인으로<br> 브랜드 아이덴티티 재정의와 IMC 전략 기획을 통해 종합적인 브랜딩 방향을
+                                            제안했습니다.<br> 기획과 전략은 팀 전체가 함께 진행했으며, 저는 기획서 디자인의 절반 이상을 맡아<br>브랜드 메시지가 일관되게
+                                            전달되도록
+                                            하였습니다.</p>
+
+                                        <div class="add-meta">
+                                            (2023. 04. 03 - 06. 15)
+                                        </div>
+                                        <div class="view_btn" onclick="openModal('pdf3')">
+                                            VIEW PDF
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- item 04 -->
+                                <li class="add-item">
+                                    <div class="add-tit">
+                                        <h4>상업어업의 진실 카드뉴스</h4>
+                                    </div>
+
+                                    <div class="add-desc">
+                                        <p>대학에서 개인 작업으로 진행한 상업어업의 진실 카드뉴스 프로젝트입니다.<br>기획부터 디자인까지 전 과정을 단독으로
+                                            수행하였으며,<br>주제를
+                                            시각적으로 쉽고 직관적으로 전달하는 것에 중점을 두었습니다.</p>
+
+                                        <div class="add-meta">
+                                            (2022. 06. 01 - 06. 25)
+                                        </div>
+                                        <div class="view_btn" onclick="openModal('pdf4')">
+                                            VIEW PDF
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div><!-- add-dialog -->
+                    </div><!-- add-work -->
+
+                    <div id="pdfModal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal('pdf1')">&times;</span>
+                            <iframe
+                                src="https://drive.google.com/file/d/14lDB4wbgM0lvGBNAx3DcWns9edp1gSP-/preview?usp=sharing"
+                                width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+
+                    <div id="pdfModal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal('pdf2')">&times;</span>
+                            <iframe
+                                src=" https://drive.google.com/file/d/1yFXA98FuJnKDy6Fb7Jw0l6cD0h4I-UGK/preview?usp=sharing"
+                                width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+
+                    <div id="pdfModal3" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal('pdf3')">&times;</span>
+                            <iframe
+                                src="https://drive.google.com/file/d/1hXoAL05Q8kQmTREXqgyILtm_ekXJLQM8/preview?usp=sharing"
+                                width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+
+                    <div id="pdfModal4" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal('pdf4')">&times;</span>
+                            <iframe
+                                src="https://drive.google.com/file/d/1R2zpQXHcOo9zIZAF5cN9nVwDFK-D9KY2/preview?usp=sharing"
+                                width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+
+                    <div id="pdfModal5" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button" onclick="closeModal('pdf5')">&times;</span>
+                            <iframe
+                                src="https://drive.google.com/file/d/1S-Mk0N_FRbjABeL88c-7xO99ZxmoRN5v/preview?usp=sharing"
+                                width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+
+                </div><!-- inner -->
+            </section><!-- work -->
+
+            <section id="skills">
+            </section><!-- skill -->
+
+        </div><!-- container -->
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="ft-top">
+                    <p>THANK YOU️<br>
+                        FOR CHECKING OUT</p>
+                    <div class="ft-email">
+                        <div class="mask-wrap">
+                            <span class="email-copy" data-email="hello.yj0jy@gmail.com">hello.yj0jy@gmail.com</span>
+                            <span class="email-copy" data-email="hello.yj0jy@gmail.com">hello.yj0jy@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ft-bottom">
+                    <nav class="ft-nav">
+                        <a href="#hero">ABOUT</a>
+                        <a href="#work">WORK</a>
+                        <span class="email-copy ft-nav-email" data-email="hello.yj0jy@gmail.com">CONTACT</span>
+                    </nav>
+
+                    <small class="copyright">
+                        © 2025 Jeong Yeonju. All Rights Reserved.
+                    </small>
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- wrap-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.js"></script>
+    <script src="js/matter-skill.js"></script>
+    <script>
+        // PDF 모달 열기/닫기
+        function openModal(pdfId) {
+            // 'pdf1' -> 'pdfModal1' 과 같이 ID를 조합합니다.
+            const modalId = 'pdfModal' + pdfId.replace('pdf', '');
+            const modalElement = document.getElementById(modalId);
+            if (modalElement) {
+                modalElement.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // 스크롤 방지
+            }
+        }
+
+        function closeModal(pdfId) {
+            const modalId = 'pdfModal' + pdfId.replace('pdf', '');
+            const modalElement = document.getElementById(modalId);
+            if (modalElement) {
+                modalElement.style.display = 'none';
+                // 다른 모달이 열려있지 않을 때만 스크롤 복원
+                const openModals = document.querySelectorAll('.modal[style*="display: block"]');
+                if (openModals.length === 0) {
+                    document.body.style.overflow = '';
+                }
+            }
+        }
+
+        // 모달창 바깥 영역 클릭 시 닫기
+        window.onclick = function (event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+                document.body.style.overflow = '';
+            }
+        }
+
+        // ESC 키로 모달 닫기
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                const openModals = document.querySelectorAll('.modal[style*="display: block"]');
+                openModals.forEach(modal => {
+                    modal.style.display = 'none';
+                });
+                document.body.style.overflow = ''; // 모든 모달이 닫히므로 스크롤 복원
+            }
+        });
+    </script>
+</body>
+
+</html>
