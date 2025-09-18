@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url(../font/Sentinel-Light-iF6618f54f9229b.otf) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url(../font/Sentinel-Book-iF6618f54f8ce4b.otf) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sentinel-Italic';
+    src: url(../font/Sentinel-Light-Italic-iF6618f54f7343d.otf) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHat';
+    src: url(../font/RedHatDisplay-Regular.ttf) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHat';
+    src: url(../font/RedHatDisplay-Medium.ttf) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url(../font/Didot.otf) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
