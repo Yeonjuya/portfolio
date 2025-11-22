@@ -1384,6 +1384,13 @@ a.go-top:link {
     padding-right: 20px;
 }
 
+.btn-wrapper {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .site-link {
     cursor: pointer;
     display: inline-block;
