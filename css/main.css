@@ -373,7 +373,7 @@ body {
 }
 
 .add h3::before {
-    content: "(4)";
+    content: "(3)";
     position: absolute;
     color: var(--color-white);
     position: absolute;
